@@ -1,5 +1,4 @@
 # Fauna Django
-
 Aplicació Django per gestionar fauna, espècies i observacions de camp. El projecte proporciona una base robusta per a sistemes de monitorització ambiental, recerca en biodiversitat i seguiment d’espècies, amb una API REST preparada per integrar dades en aplicacions externes.
 
 ## Funcionalitats
@@ -17,19 +16,21 @@ Aplicació Django per gestionar fauna, espècies i observacions de camp. El proj
 
 ## Instal·lació i execució
 
-Instal·la les dependències:
-
+### Instal·la les dependències
 ```bash
 pip install django djangorestframework
-Crea el projecte Django:
+Crea el projecte Django
+bash
 django-admin startproject wildlifemonitor .
 python manage.py startapp animals
-Executa el servidor:
+Executa el servidor
+bash
 python manage.py runserver
 Desenvolupament en Codespaces
 Aquest projecte es desenvolupa en GitHub Codespaces, utilitzant un entorn VS Code al núvol amb sincronització automàtica via Git. Permet treballar des de qualsevol dispositiu sense configuracions locals.
 
 Estructura del projecte
+bash
 fauna-django/
 │
 ├── animals/
