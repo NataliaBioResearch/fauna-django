@@ -15,36 +15,32 @@ Aplicació Django per gestionar fauna, espècies i observacions de camp. El proj
 - GitHub Codespaces (entorn de desenvolupament)
 
 ## Instal·lació i execució
-
-### Instal·la les dependències
-```bash
+Instal·la les dependències:  
 pip install django djangorestframework
-Crea el projecte Django
-bash
-django-admin startproject wildlifemonitor .
+
+Crea el projecte Django:  
+django-admin startproject wildlifemonitor .  
 python manage.py startapp animals
-Executa el servidor
-bash
+
+Executa el servidor:  
 python manage.py runserver
-Desenvolupament en Codespaces
+
+## Desenvolupament en Codespaces
 Aquest projecte es desenvolupa en GitHub Codespaces, utilitzant un entorn VS Code al núvol amb sincronització automàtica via Git. Permet treballar des de qualsevol dispositiu sense configuracions locals.
 
-Estructura del projecte
-bash
-fauna-django/
-│
-├── animals/
-│   ├── models.py
-│   ├── views.py
-│   ├── serializers.py
-│   ├── urls.py
-│
-├── wildlifemonitor/
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-│
-├── manage.py
+## Estructura del projecte
+fauna-django/  
+├── animals/  
+│   ├── models.py  
+│   ├── views.py  
+│   ├── serializers.py  
+│   ├── urls.py  
+├── wildlifemonitor/  
+│   ├── settings.py  
+│   ├── urls.py  
+│   └── wsgi.py  
+├── manage.py  
 └── README.md
-Llicència
+
+## Llicència
 MIT License
